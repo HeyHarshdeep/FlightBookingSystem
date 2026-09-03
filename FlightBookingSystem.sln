@@ -51,6 +51,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment.Infrastructure", "Services\Payment\FlightBookingSystem.Payment.Infrastructure\FlightBookingSystem.Payment.Infrastructure.csproj", "{D0DF632D-98C6-4AA7-A9B7-4DC16AA8CED1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4D445420-BB68-4E1C-8A14-F0C265E446C4}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Lenovo\Downloads\SchemaAndData.sql = C:\Users\Lenovo\Downloads\SchemaAndData.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
