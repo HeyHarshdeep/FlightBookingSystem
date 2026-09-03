@@ -30,7 +30,7 @@ namespace FlightBookingSystem.Flights.Infrastructure.Repositories
         public async Task DeleteFlightAsync(Flight flight)
         {
             const string sql = "DELETE FROM Flights WHERE Id = @Id";
-            await _dbConnection.ExecuteAsync(sql, new { Id = id });
+            await _dbConnection.ExecuteAsync(sql, new { Id = flight.Id });
         }
 
         public async Task<IEnumerable<Flight>> GetFlightAsync()
