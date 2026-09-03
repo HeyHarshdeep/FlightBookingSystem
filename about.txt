@@ -3,6 +3,8 @@
 	Services - For actual repo services
 2. As there are multiple microservcies
 	Booking
+		1 in core we set up the core service with entity and I repo
+		2 in infra, implemented the crud operation by implementing the irepo interface
 	Flight
 	Notification
 	Payment
