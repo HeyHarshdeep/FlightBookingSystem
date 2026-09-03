@@ -19,37 +19,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{34C5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{73C687EB-2FE9-4DDD-BD9C-499D2C1354C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Booking.Api", "Services\Booking\FlightBookingSystem.Booking.Api\FlightBookingSystem.Booking.Api.csproj", "{68007609-E557-46C5-B9B7-491474204497}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Bookings.Api", "Services\Booking\FlightBookingSystem.Booking.Api\FlightBookingSystem.Bookings.Api.csproj", "{68007609-E557-46C5-B9B7-491474204497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Booking.Application", "Services\Booking\FlightBookingSystem.Booking.Application\FlightBookingSystem.Booking.Application.csproj", "{45949EC3-44D1-497B-A853-B4BF65174525}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Bookings.Application", "Services\Booking\FlightBookingSystem.Booking.Application\FlightBookingSystem.Bookings.Application.csproj", "{45949EC3-44D1-497B-A853-B4BF65174525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Booking.Core", "Services\Booking\FlightBookingSystem.Booking.Core\FlightBookingSystem.Booking.Core.csproj", "{F0DC585F-2836-4906-90EF-8D1C3BA3C6D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Bookings.Core", "Services\Booking\FlightBookingSystem.Booking.Core\FlightBookingSystem.Bookings.Core.csproj", "{F0DC585F-2836-4906-90EF-8D1C3BA3C6D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Booking.Infrastructure", "Services\Booking\FlightBookingSystem.Booking.Infrastructure\FlightBookingSystem.Booking.Infrastructure.csproj", "{49FEF91A-7F3F-41D4-970B-F3871E87BC3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Bookings.Infrastructure", "Services\Booking\FlightBookingSystem.Booking.Infrastructure\FlightBookingSystem.Bookings.Infrastructure.csproj", "{49FEF91A-7F3F-41D4-970B-F3871E87BC3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flight.Api", "Services\Flight\FlightBookingSystem.Flight.Api\FlightBookingSystem.Flight.Api.csproj", "{F3AAE617-F333-4CBC-B6B6-F410A5D72E8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flights.Api", "Services\Flight\FlightBookingSystem.Flight.Api\FlightBookingSystem.Flights.Api.csproj", "{F3AAE617-F333-4CBC-B6B6-F410A5D72E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flight.Application", "Services\Flight\FlightBookingSystem.Flight.Application\FlightBookingSystem.Flight.Application.csproj", "{2677F75C-3D68-48BD-8FEB-55BEAF3929F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flights.Application", "Services\Flight\FlightBookingSystem.Flight.Application\FlightBookingSystem.Flights.Application.csproj", "{2677F75C-3D68-48BD-8FEB-55BEAF3929F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flight.Core", "Services\Flight\FlightBookingSystem.Flight.Core\FlightBookingSystem.Flight.Core.csproj", "{64A15E52-795F-0DDE-FA0A-92CFE21F615D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flights.Core", "Services\Flight\FlightBookingSystem.Flight.Core\FlightBookingSystem.Flights.Core.csproj", "{64A15E52-795F-0DDE-FA0A-92CFE21F615D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flight.Infrastructure", "Services\Flight\FlightBookingSystem.Flight.Infrastructure\FlightBookingSystem.Flight.Infrastructure.csproj", "{59A98227-6F1C-4D43-BF0D-AB2A83F709D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Flights.Infrastructure", "Services\Flight\FlightBookingSystem.Flight.Infrastructure\FlightBookingSystem.Flights.Infrastructure.csproj", "{59A98227-6F1C-4D43-BF0D-AB2A83F709D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notification.Api", "Services\Notification\FlightBookingSystem.Notification.Api\FlightBookingSystem.Notification.Api.csproj", "{ABBA825F-5C6A-41E6-9FD3-C001BEDE326D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notifications.Api", "Services\Notification\FlightBookingSystem.Notification.Api\FlightBookingSystem.Notifications.Api.csproj", "{ABBA825F-5C6A-41E6-9FD3-C001BEDE326D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notification.Application", "Services\Notification\FlightBookingSystem.Notification.Application\FlightBookingSystem.Notification.Application.csproj", "{D5A0BF44-BB6A-4065-8892-8A7F770B4CAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notifications.Application", "Services\Notification\FlightBookingSystem.Notification.Application\FlightBookingSystem.Notifications.Application.csproj", "{D5A0BF44-BB6A-4065-8892-8A7F770B4CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notification.Core", "Services\Notification\FlightBookingSystem.Notification.Core\FlightBookingSystem.Notification.Core.csproj", "{54AA1A07-4737-4F5F-BCC7-23F1EF2A15EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notifications.Core", "Services\Notification\FlightBookingSystem.Notification.Core\FlightBookingSystem.Notifications.Core.csproj", "{54AA1A07-4737-4F5F-BCC7-23F1EF2A15EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notification.Infrastructure", "Services\Notification\FlightBookingSystem.Notification.Infrastructure\FlightBookingSystem.Notification.Infrastructure.csproj", "{8BBFCB82-3B2D-45AC-9A23-CCD86E247F33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Notifications.Infrastructure", "Services\Notification\FlightBookingSystem.Notification.Infrastructure\FlightBookingSystem.Notifications.Infrastructure.csproj", "{8BBFCB82-3B2D-45AC-9A23-CCD86E247F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment.Api", "Services\Payment\FlightBookingSystem.Payment.Api\FlightBookingSystem.Payment.Api.csproj", "{BB77C3EE-3FCB-4417-BFC6-71B28D5CFF6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payments.Api", "Services\Payment\FlightBookingSystem.Payment.Api\FlightBookingSystem.Payments.Api.csproj", "{BB77C3EE-3FCB-4417-BFC6-71B28D5CFF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment.Application", "Services\Payment\FlightBookingSystem.Payment.Application\FlightBookingSystem.Payment.Application.csproj", "{176FA319-667C-4E89-8FF9-BFA2D1B7BB2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payments.Application", "Services\Payment\FlightBookingSystem.Payment.Application\FlightBookingSystem.Payments.Application.csproj", "{176FA319-667C-4E89-8FF9-BFA2D1B7BB2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment.Core", "Services\Payment\FlightBookingSystem.Payment.Core\FlightBookingSystem.Payment.Core.csproj", "{31A7DE9C-2C8F-4ACB-A97C-277F41857393}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payments.Core", "Services\Payment\FlightBookingSystem.Payment.Core\FlightBookingSystem.Payments.Core.csproj", "{31A7DE9C-2C8F-4ACB-A97C-277F41857393}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment.Infrastructure", "Services\Payment\FlightBookingSystem.Payment.Infrastructure\FlightBookingSystem.Payment.Infrastructure.csproj", "{D0DF632D-98C6-4AA7-A9B7-4DC16AA8CED1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payments.Infrastructure", "Services\Payment\FlightBookingSystem.Payment.Infrastructure\FlightBookingSystem.Payments.Infrastructure.csproj", "{D0DF632D-98C6-4AA7-A9B7-4DC16AA8CED1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4D445420-BB68-4E1C-8A14-F0C265E446C4}"
 	ProjectSection(SolutionItems) = preProject

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightBookingSystem.Notification.Core.Entities
+namespace FlightBookingSystem.Notifications.Core.Entities
 {
     public class Notification
     {

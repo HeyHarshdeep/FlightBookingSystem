@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightBookingSystem.Booking.Core.Entities
+namespace FlightBookingSystem.Bookings.Core.Entities
 {
     public class Booking
     {
