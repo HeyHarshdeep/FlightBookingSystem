@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.79" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlightBookingSystem.Booking.Core\FlightBookingSystem.Bookings.Core.csproj" />
+  </ItemGroup>
+
 </Project>

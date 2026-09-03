@@ -1,0 +1,14 @@
+1. Create the Folder Structure
+	Building Blocks - For Cross Cutting Concerns
+	Services - For actual repo services
+2. As there are multiple microservcies
+	Booking
+	Flight
+	Notification
+	Payment
+3. Each service is following the clean architecture
+4. For sql dapper is used
+5. in the core, entity and repository interface is defined
+6. Infra will implement the interface
+7. impelemented the booking repositotry for crud operations with Dapper
+8. 
