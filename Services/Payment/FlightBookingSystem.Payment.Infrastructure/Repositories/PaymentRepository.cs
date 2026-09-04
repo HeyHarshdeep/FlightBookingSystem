@@ -28,7 +28,9 @@ namespace FlightBookingSystem.Payments.Infrastructure.Repositories
 
         public async Task RefundPaymentAsync(Guid id)
         {
-            throw new NotImplementedException();
+            const string sql = "DELETE FROM Payments WHERE Id = @Id";
+            await _dbConnection.ExecuteAsync(sql, new { Id = id });
+
         }
     }
 }
