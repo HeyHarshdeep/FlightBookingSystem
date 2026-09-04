@@ -12,6 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\FlightBookingSystem.Notification.Application\FlightBookingSystem.Notifications.Application.csproj" />
 		<ProjectReference Include="..\FlightBookingSystem.Notification.Core\FlightBookingSystem.Notifications.Core.csproj" />
 		<ProjectReference Include="..\FlightBookingSystem.Notification.Infrastructure\FlightBookingSystem.Notifications.Infrastructure.csproj" />
 	</ItemGroup>
