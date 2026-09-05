@@ -14,6 +14,7 @@ namespace FlightBookingSystem.Notifications.Application.Handlers
     {
         private readonly INotificationService _notificationService;
 
+
         public SendNotificationHandler(INotificationService notificationService)
         {
             _notificationService = notificationService;

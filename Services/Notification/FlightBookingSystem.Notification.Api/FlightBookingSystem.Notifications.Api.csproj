@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
@@ -7,11 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="MassTransit" Version="9.2.1" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="9.2.1" />
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\BuildingBlocks\FlightBookingSystem.BuildingBlocks\FlightBookingSystem.BuildingBlocks.csproj" />
 		<ProjectReference Include="..\FlightBookingSystem.Notification.Application\FlightBookingSystem.Notifications.Application.csproj" />
 		<ProjectReference Include="..\FlightBookingSystem.Notification.Core\FlightBookingSystem.Notifications.Core.csproj" />
 		<ProjectReference Include="..\FlightBookingSystem.Notification.Infrastructure\FlightBookingSystem.Notifications.Infrastructure.csproj" />
