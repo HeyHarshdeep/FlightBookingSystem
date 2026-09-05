@@ -49,7 +49,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystem.Payment
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4D445420-BB68-4E1C-8A14-F0C265E446C4}"
 	ProjectSection(SolutionItems) = preProject
-		about.txt = about.txt
 		C:\Users\Lenovo\Downloads\SchemaAndData.sql = C:\Users\Lenovo\Downloads\SchemaAndData.sql
 	EndProjectSection
 EndProject
